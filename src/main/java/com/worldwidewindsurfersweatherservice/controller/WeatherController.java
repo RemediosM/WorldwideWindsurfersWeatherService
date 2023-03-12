@@ -20,7 +20,7 @@ import java.time.LocalDate;
 public class WeatherController {
 
     private static final String INCORRECT_DATE_ERROR = "Incorrect date. Correct date format is YYYY-MM-DD. Date should be in the range from "
-            + LocalDate.now(Clock.systemDefaultZone()) + " to " + LocalDate.now(Clock.systemDefaultZone()).plusDays(16);
+            + LocalDate.now(Clock.systemDefaultZone()) + " to " + LocalDate.now(Clock.systemDefaultZone()).plusDays(15);
     private final WeatherService weatherService;
     private final DateValidatorImplementation dateValidatorImplementation;
 
