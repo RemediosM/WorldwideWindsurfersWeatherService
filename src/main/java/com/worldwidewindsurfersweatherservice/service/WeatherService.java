@@ -10,13 +10,9 @@ import org.springframework.stereotype.Service;
 public class WeatherService {
 
     private final WeatherClient weatherClient;
-    public WeatherDto getWeather() {
-
-        return weatherClient.getWeatherForCity("Warsaw", "2023-03-10");
-    }
 
     public WeatherDto getWeatherForDate(String date) {
-
         return weatherClient.getWeatherForDate(date);
     }
+
 }

@@ -6,7 +6,7 @@ import lombok.Getter;
 public class WeatherbitDataDto {
 
     private String datetime;
-    private float temp;
-    private float wind_spd;
+    private Float temp;
+    private Float wind_spd;
 
 }

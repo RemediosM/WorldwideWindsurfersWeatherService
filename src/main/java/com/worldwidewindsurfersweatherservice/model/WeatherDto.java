@@ -14,7 +14,7 @@ public class WeatherDto {
     private String stateCode;
     private String timezone;
     private String datetime;
-    private float temp;
-    private float windSpeed;
+    private Float temp;
+    private Float windSpeed;
 
 }
